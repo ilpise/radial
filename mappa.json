@@ -1,0 +1,104 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Simmetria",
+   "children": [
+    {
+     "name": "Isometrie",
+     "children": [
+      {"name": "Traslazione"},
+      {"name": "Riflessione"},
+      {"name": "Rotazione"},
+      {"name": "Glissoriflessione"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Morfologia",
+   "children": [
+    {"name": "Morfologia botanica",
+     "children": [
+      {"name": "Fillotassi",
+        "children":[
+          {"name": "Foglie",
+            "children":[
+              {"name": "Verticillata",
+                "children":[
+                  {"name": "Ternata"},
+                  {"name": "Quaternata"},
+                  {"name": "Sena"},
+                  {"name": "Ottona"}
+                ]
+              },
+              {"name": "Opposta"},
+              {"name": "Decussata",
+                "children":[
+                  {"name": "Distica"},
+                  {"name": "Tetrastica"},
+                  {"name": "Spiralata",
+                    "children":[
+                      {"name": "Margini",
+                        "children":[
+                          {"name": "Ondulata"},
+													{"name": "Sinuata"},
+													{"name": "Acerata"},
+													{"name": "Dentata"},
+													{"name": "Seghettata"},
+													{"name": "Festonata"},
+													{"name": "Lobata"},
+													{"name": "Palmata"},
+													{"name": "Lacerata"},
+													{"name": "Digitata"},
+													{"name": "Bipennatosetta"},
+													{"name": "Tripennatosetta"},
+													{"name": "Pennatosetta"},
+													{"name": "Palmatosetta"},
+													{"name": "Pedadisetta"},
+													{"name": "Palmato-lobata"},
+													{"name": "Bipartita"},
+													{"name": "Tripartita"},
+													{"name": "Palmato-partita"},
+													{"name": "Pinnato-partita"},
+													{"name": "Pennatifida"}
+                        ]
+                      },
+                      {"name": "Disposizione",
+                        "children":[
+                          {"name": "Imparipennata"},
+													{"name": "Paripennata"},
+													{"name": "Bipennatosetta"},
+													{"name": "Tripennatosetta"},
+													{"name": "Spirale"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Rami",
+            "children":[
+              {"name": "Monopodiale verticillata"},
+              {"name": "Monopodiale sparsa"},
+              {"name": "Dicotomia"},
+              {"name": "Falsa dicotomia"}
+            ]
+          },
+          {"name": "Infiorescenza",
+            "children":[
+              {"name": "Racemo"},
+              {"name": "Racemo composto"},
+              {"name": "Spiga"}
+            ]
+          }
+        ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
