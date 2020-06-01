@@ -91,7 +91,12 @@
             "children":[
               {"name": "Racemo"},
               {"name": "Racemo composto"},
-              {"name": "Spiga"}
+              {"name": "Spiga"},
+              {"name": "Corimbo"},
+              {"name": "Ombrello"},
+              {"name": "Capolino"},
+              {"name": "Ombrello a dicasio"},
+              {"name": "Spiroide"}
             ]
           }
         ]
@@ -99,6 +104,287 @@
      ]
     }
    ]
-  }
+  },
+  {
+  "name": "Cristallografia",
+  "children": [
+   {
+    "name": "7 sistemi cristallini/14 reticoli di Bravais",
+    "children": [
+     {"name": "Triclino"},
+     {"name": "Monoclino",
+       "children":[
+         {"name": "Primitivo"},
+         {"name": "Base centrata"}
+       ]
+     },
+     {"name": "Ortorombico",
+       "children":[
+         {"name": "Primitivo"},
+         {"name": "Base centrata"},
+         {"name": "Corpo centrato"},
+         {"name": "Faccia centrata"}
+       ]
+     },
+     {"name": "Trigonale/Romboedrico"},
+     {"name": "Tetragonale",
+       "children":[
+         {"name": "Primitivo"},
+         {"name": "Corpo centrato"}
+       ]
+     },
+     {"name": "Esagonale"},
+     {"name": "Cubico",
+       "cildren":[
+         {"name": "Primitivo"},
+         {"name": "Corpo centrato"},
+         {"name": "Faccia centrata"}
+       ]
+     }
+    ]
+   }
+  ]
+  },
+  {
+  "name": "Poliedri",
+  "children": [
+   {
+    "name": "Regolari",
+    "children": [
+     {"name": "5 solidi platonici",
+       "children":[
+         {"name": "Tetraedro"},
+         {"name": "Esaedro"},
+         {"name": "Ottaedro"},
+         {"name": "Dodecaedro"},
+         {"name": "Icosaedro"}
+       ]
+     },
+     {"name": "13 poliedri archimedei",
+       "children":[
+          {"name": "Tetraedro troncato"},
+					{"name": "Esaedro troncato"},
+					{"name": "Ottaedro troncato"},
+					{"name": "Dodecaedro troncato"},
+					{"name": "Icosaedro troncato"},
+					{"name": "Cubottaedro"},
+					{"name": "Icosidodecaedro"},
+					{"name": "Rombicubottaedro"},
+					{"name": "Cubottaedro troncato"},
+					{"name": "Rombicosidodecaedro"},
+					{"name": "Icosidodecaedro troncato"},
+					{"name": "Cubottaedro camuso"},
+					{"name": "Dodecaedro camuso"}
+       ]
+     }
+    ]
+   }
+  ]
+  },
+  {
+  "name": "Geometria",
+  "children": [
+    {"name": "Successione di Fibonacci"},
+    {"name": "Sezione Aurea"},
+    {"name": "Spirale logaritmica"},
+    {"name": "Geometria proiettiva",
+      "children": [
+        {"name": "Rapporto di punti"},
+  			{"name": "Birapporto di punti"},
+  			{"name": "Omologia"},
+  			{"name": "Omotetia"},
+  			{"name": "Affinità"}
+      ]
+     },
+     {"name": "Tassellazione del piano",
+       "children":[
+         {"name": "17 gruppi di simmetria",
+            "children":[
+                {"name": "Rotazione di π/3"},
+								{"name": "P6"},
+								{"name": "P6M"},
+								{"name": "Rotazione di π/2"},
+                {"name": "P4"},
+								{"name": "P4G"},
+								{"name": "P4M"},
+                {"name": "Rotazione di 2π/3"},
+                {"name": "P3"},
+								{"name": "P31M"},
+								{"name": "P3M1"},
+								{"name": "Rotazione di π"},
+								{"name": "P2"},
+								{"name": "CMM"},
+								{"name": "PMM"},
+								{"name": "PMG"},
+								{"name": "PGG"}
+           ]
+          }
+       ]
+     }
+    ]
+  },
+  {
+  "name": "Psicologia della Gestalt",
+  "children": [
+    {"name": "Pregnanza"},
+			{"name": "Buona forma"},
+			{"name": "Prossimità"},
+			{"name": "Somiglianza"},
+			{"name": "Buona continuità"},
+			{"name": "Destino comune"},
+			{"name": "Movimento indotto"},
+			{"name": "Figura/Sfondo"}
+    ]
+  },
+  {
+  "name": "Morfogenesi",
+  "children": [
+      {"name": "Matematica",
+        "children":[
+          {"name": "Teoria delle catastrofi",
+            "children":[
+                {"name": "Piega"},
+  							{"name": "Grinza"},
+  							{"name": "Crunodo"},
+  							{"name": "Farfalla"},
+  							{"name": "Ombelico iperbolico"},
+  							{"name": "Ombelico ellittico"},
+  							{"name": "Ombelico Parabolico"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {"name": "Topologia"},
+  {
+  "name": "Semiotica",
+    "children": [
+        {"name": "Segno",
+          "children":[
+            {"name": "Semantica"},
+  			     {"name": "Sintattica"},
+  			     {"name": "Pragmatica"}
+            ]
+        }
+     ]
+   },
+   {
+   "name": "Psicologia",
+   "children": [
+       {"name": "Tipi psicologici",
+         "children":[
+           {"name": "Estroverso",
+             "children":[
+                {"name": "Razionali",
+                  "children":[
+                     {"name": "Tipo di pensiero estroverso"},
+                     {"name": "Tipo di sentimento estroverso"}
+                  ]
+                },
+   							{"name": "Irrazionali",
+                  "children":[
+                     {"name": "Tipo sensoriale estroverso"},
+                     {"name": "Tipo intuitivo estroverso"}
+                  ]
+                }
+             ]
+           },
+           {"name": "Introverso",
+             "children":[
+                 {"name": "Razionali",
+                   "children":[
+                      {"name": "Tipo di pensiero introverso"},
+                       {"name": "Tipo di sentimento introverso"}
+                   ]
+                 },
+                 {"name": "Irrazionali",
+                   "children":[
+                      {"name": "Tipo sensoriale introverso"},
+                       {"name": "Tipo intuitivo introverso"}
+                   ]
+                 }
+             ]
+           }
+         ]
+       }
+     ]
+   },
+   {"name": "Architettura",
+     "children":[
+         {"name": "Firmitas",
+           "children":[
+              {"name": "Ordinatio"},
+               {"name": "Symmetria"}
+           ]
+         },
+         {"name": "Utilitas",
+           "children":[
+              {"name": "Distibrutio"},
+               {"name": "Decor"}
+           ]
+         },
+         {"name": "Venustas",
+           "children":[
+              {"name": "Dispositio"},
+               {"name": "Eurythmia"}
+           ]
+         }
+     ]
+   },
+   {"name": "Arte",
+     "children":[
+        {"name": "Einfühlung"},
+      	{"name": "Puro visibilismo"},
+      	{"name": "Vitalismo"},
+      	{"name": "Sequenze formali"},
+      	{"name": "Repliche"},
+      	{"name": "Oggetti primi"}
+     ]
+   },
+   {"name": "Linguistica",
+     "children":[
+        {"name": "Morfemi"},
+    		{"name": "Fonemi"},
+    		{"name": "Coinemi"},
+    		{"name": "Monemi"},
+    		{"name": "Icone"},
+        {"name": "Iconemi"}
+     ]
+   },
+   {"name": "Geometria proiettiva",
+     "children": [
+       {"name": "Rapporto di punti"},
+       {"name": "Birapporto di punti"},
+       {"name": "Omologia"},
+       {"name": "Omotetia"},
+       {"name": "Affinità"}
+     ]
+   },
+   {"name": "Forma della città",
+     "children":[
+         {"name": "Morfologia urbana",
+           "children":[
+              {"name": "Elementi primari"},
+						  {"name": "Tracciati"},
+						  {"name": "Residenza"}
+           ]
+         },
+         {"name": "Tipologia edilizia",
+           "children":[
+                {"name": "Isolata"},
+						    {"name": "Linea"},
+						    {"name": "Schiera"},
+                {"name": "Ballatoio"},
+                {"name": "Blocco"},
+						    {"name": "Torre"},
+						    {"name": "Corte"}
+           ]
+         }
+     ]
+   }
+
+
+
  ]
 }
